@@ -1,0 +1,43 @@
+
+
+.App{
+  
+ 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  font-size: calc(10px + 2vmin);
+  color: rgb(15, 13, 13);
+}
+
+.App .body {
+  text-align: center;
+  justify-content: center;
+}
+
+.App-logo {
+  margin:10px;
+  height: 7vmin;
+  pointer-events: none;
+}
+
+
+
+
+a.link { 
+  text-decoration: none !important;
+}
+
+.body .btn-main{
+  
+  padding: 10px;
+  border: none;
+  display: block;
+  background-color: #b06047;
+  margin: 20px;
+  color: white;
+  border-radius: 2px;
+  width: 150px;
+}
